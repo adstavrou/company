@@ -1,0 +1,15 @@
+{
+  "name": "company",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "author": "Alexandros Stavrou",
+  "license": "No Trespassing",
+  "devDependencies": {
+    "nx": "20.8.1"
+  }
+}
