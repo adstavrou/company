@@ -1,0 +1,9 @@
+{
+    "generators": {
+      "custom-app": {
+        "factory": "./src/generators/custom-app/index.ts",
+        "schema": "./src/generators/custom-app/schema.json",
+        "description": "Create a new custom app (with build ready)"
+      }
+    }
+  }

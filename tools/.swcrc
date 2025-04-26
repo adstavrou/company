@@ -1,0 +1,15 @@
+{
+    "jsc": {
+      "target": "es2020",
+      "parser": {
+        "syntax": "typescript",
+        "tsx": false,
+        "decorators": true
+      },
+      "baseUrl": "."
+    },
+    "module": {
+      "type": "commonjs"
+    }
+  }
+  

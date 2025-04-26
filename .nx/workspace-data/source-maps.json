@@ -1,0 +1,106 @@
+{
+  "tools": {
+    "root": [
+      "tools/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "tools/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:private": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "tools/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "tools/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "tools/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/hello-world": {
+    "root": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.command": [
+      "apps/hello-world/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

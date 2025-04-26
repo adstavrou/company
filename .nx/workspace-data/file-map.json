@@ -1,0 +1,282 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.1",
+  "pathMappings": {
+    "company-generators": [
+      "tools/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "apps/----/src/main.ts",
+        "hash": "18284319995576046374"
+      },
+      {
+        "file": "apps/aaa/tsconfig.app.json",
+        "hash": "3551183532755393519"
+      },
+      {
+        "file": "apps/awesome/tsconfig.app.json",
+        "hash": "7893582998059178078"
+      },
+      {
+        "file": "apps/aaa/src/main.ts",
+        "hash": "3181129492142417742"
+      },
+      {
+        "file": "apps/app/tsconfig.app.json",
+        "hash": "12526405697431422071"
+      },
+      {
+        "file": "apps/----------/src/main.ts",
+        "hash": "12877345076869674065"
+      },
+      {
+        "file": "apps/mmmmm/tsconfig.app.json",
+        "hash": "10492873436959692214"
+      },
+      {
+        "file": "apps/my-awesome-app/README.md",
+        "hash": "546164271311100812"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13818027165820369339"
+      },
+      {
+        "file": "apps/my-awesome-app/tsconfig.app.json",
+        "hash": "931356136053302723"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14222408001590126325"
+      },
+      {
+        "file": "apps/app/src/main.ts",
+        "hash": "12587829200691954840"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "18102709830330409694"
+      },
+      {
+        "file": "apps/-----/src/main.ts",
+        "hash": "8797275640919324099"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "4944654942600550510"
+      },
+      {
+        "file": "apps/tsconfig.app.json",
+        "hash": "9028862827748660903"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "13009000713040111584"
+      },
+      {
+        "file": "dist/apps/hello-world/src/main.d.ts",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15220903904238859731"
+      },
+      {
+        "file": ".git/index.lock",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "apps/awesome/README.md",
+        "hash": "10628446155380042355"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "9853452002857308663"
+      },
+      {
+        "file": "apps/----/tsconfig.app.json",
+        "hash": "2919968956110878405"
+      },
+      {
+        "file": "package.json",
+        "hash": "1600555822123220134"
+      },
+      {
+        "file": "apps/asjlkh-aljks/tsconfig.app.json",
+        "hash": "14880150030842434489"
+      },
+      {
+        "file": "dist/apps/hello-world/tsconfig.app.tsbuildinfo",
+        "hash": "5238544867372327259"
+      },
+      {
+        "file": "apps/----------/tsconfig.app.json",
+        "hash": "6883289871923179853"
+      },
+      {
+        "file": "apps/asjlkh-aljks/README.md",
+        "hash": "9118289577297185677"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "apps/app/README.md",
+        "hash": "7054547929017127782"
+      },
+      {
+        "file": "apps/aaa/README.md",
+        "hash": "9664222570689516251"
+      },
+      {
+        "file": "apps/mmmmm/src/main.ts",
+        "hash": "4921122597942588408"
+      },
+      {
+        "file": "apps/----------/README.md",
+        "hash": "10916298137625938279"
+      },
+      {
+        "file": "apps/my-awesome-app/src/main.ts",
+        "hash": "11188029339462326590"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "5429697131219475748"
+      },
+      {
+        "file": "apps/asjlkh-aljks/src/main.ts",
+        "hash": "6131100691869797549"
+      },
+      {
+        "file": "dist/apps/hello-world/src/main.js.map",
+        "hash": "10872097813409847518"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "3006006681234177187"
+      },
+      {
+        "file": "apps/mmmmm/README.md",
+        "hash": "18400669983746336811"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "10439983894045084710"
+      },
+      {
+        "file": "apps/awesome/src/main.ts",
+        "hash": "14545256052320235701"
+      },
+      {
+        "file": ".git/FETCH_HEAD",
+        "hash": "8947424940856844263"
+      },
+      {
+        "file": "README.md",
+        "hash": "13220137790231281040"
+      },
+      {
+        "file": "apps/-----/tsconfig.app.json",
+        "hash": "12987548654064388754"
+      },
+      {
+        "file": "apps/----/README.md",
+        "hash": "14938469005959428568"
+      },
+      {
+        "file": "apps/-----/README.md",
+        "hash": "2091324609897998897"
+      },
+      {
+        "file": "apps/README.md",
+        "hash": "3014423952044754237"
+      },
+      {
+        "file": "dist/apps/hello-world/src/main.js",
+        "hash": "12909933836786697726"
+      }
+    ],
+    "projectFileMap": {
+      "company-generators": [
+        {
+          "file": "tools/.swcrc",
+          "hash": "15475698493042917272"
+        },
+        {
+          "file": "tools/README.md",
+          "hash": "12454686919892817848"
+        },
+        {
+          "file": "tools/package.json",
+          "hash": "15932262878780005230",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "tools/project.json",
+          "hash": "6118450252265706436"
+        },
+        {
+          "file": "tools/src/generators/custom-app/README.md",
+          "hash": "17455748333849595871"
+        },
+        {
+          "file": "tools/src/generators/custom-app/index.ts",
+          "hash": "4030036707332896747",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "tools/src/generators/custom-app/schema.d.ts",
+          "hash": "4767670293440286711"
+        },
+        {
+          "file": "tools/src/generators/custom-app/schema.json",
+          "hash": "14398318012247726680"
+        },
+        {
+          "file": "tools/src/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "tools/tsconfig.json",
+          "hash": "9399469649748610155"
+        },
+        {
+          "file": "tools/tsconfig.lib.json",
+          "hash": "9908975088309596753"
+        },
+        {
+          "file": "tools/workspace.json",
+          "hash": "7179889087298174371"
+        }
+      ],
+      "hello-world": [
+        {
+          "file": "apps/hello-world/project.json",
+          "hash": "11706629932077922923"
+        },
+        {
+          "file": "apps/hello-world/src/main.ts",
+          "hash": "13513060486134305079"
+        },
+        {
+          "file": "apps/hello-world/tsconfig.app.json",
+          "hash": "5720295292316315774"
+        }
+      ]
+    }
+  }
+}

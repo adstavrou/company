@@ -1,0 +1,8 @@
+{
+  "name": "company-generators",
+  "root": "tools",
+  "sourceRoot": "tools/src",
+  "projectType": "library",
+  "targets": {},
+  "tags": []
+}
