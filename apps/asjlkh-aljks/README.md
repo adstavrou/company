@@ -1,3 +1,0 @@
-# asjlkh-aljks
-
-Generated app

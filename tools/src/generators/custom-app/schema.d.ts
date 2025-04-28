@@ -1,4 +1,3 @@
 export interface CustomAppGeneratorSchema {
-    name: string;
-  }
-  
+  name: string;
+}

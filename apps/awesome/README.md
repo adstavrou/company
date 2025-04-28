@@ -1,3 +1,0 @@
-# awesome
-
-Generated app

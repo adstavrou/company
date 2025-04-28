@@ -1,3 +1,0 @@
-# aaa
-
-Generated app

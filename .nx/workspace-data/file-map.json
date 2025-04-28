@@ -10,203 +10,706 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "apps/----/src/main.ts",
-        "hash": "18284319995576046374"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/createRule.js",
+        "hash": "12152241870478323747"
       },
       {
-        "file": "apps/aaa/tsconfig.app.json",
-        "hash": "3551183532755393519"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/consistent-return.d.ts.map",
+        "hash": "3079749947902673390"
       },
       {
-        "file": "apps/awesome/tsconfig.app.json",
-        "hash": "7893582998059178078"
+        "file": "esm-check.ts",
+        "hash": "5687300936303051205"
       },
       {
-        "file": "apps/aaa/src/main.ts",
-        "hash": "3181129492142417742"
+        "file": ".git/FETCH_HEAD",
+        "hash": "11241573813559276452"
       },
       {
-        "file": "apps/app/tsconfig.app.json",
-        "hash": "12526405697431422071"
+        "file": "node_modules/.pnpm/@typescript-eslint+parser@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/tsc",
+        "hash": "13830810282459919028"
       },
       {
-        "file": "apps/----------/src/main.ts",
-        "hash": "12877345076869674065"
+        "file": "node_modules/.pnpm/@typescript-eslint+type-utils@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/tsserver",
+        "hash": "5043864045763520464"
       },
       {
-        "file": "apps/mmmmm/tsconfig.app.json",
-        "hash": "10492873436959692214"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-misused-promises.js",
+        "hash": "12789871395148586415"
       },
       {
-        "file": "apps/my-awesome-app/README.md",
-        "hash": "546164271311100812"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/getWrappingFixer.js",
+        "hash": "16875506273435211054"
       },
       {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13818027165820369339"
-      },
-      {
-        "file": "apps/my-awesome-app/tsconfig.app.json",
-        "hash": "931356136053302723"
-      },
-      {
-        "file": "nx.json",
-        "hash": "14222408001590126325"
-      },
-      {
-        "file": "apps/app/src/main.ts",
-        "hash": "12587829200691954840"
-      },
-      {
-        "file": ".nx/workspace-data/lockfile.hash",
-        "hash": "18102709830330409694"
-      },
-      {
-        "file": "apps/-----/src/main.ts",
-        "hash": "8797275640919324099"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/isUndefinedIdentifier.js",
+        "hash": "17549655494283079155"
       },
       {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "4944654942600550510"
-      },
-      {
-        "file": "apps/tsconfig.app.json",
-        "hash": "9028862827748660903"
-      },
-      {
         "file": "pnpm-lock.yaml",
-        "hash": "13009000713040111584"
+        "hash": "12623612359525779217"
       },
       {
-        "file": "dist/apps/hello-world/src/main.d.ts",
-        "hash": "3244421341483603138"
+        "file": "node_modules/.pnpm/@typescript-eslint+typescript-estree@8.31.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/tsserver",
+        "hash": "5043864045763520464"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15220903904238859731"
+        "file": "node_modules/.pnpm/node_modules/.bin/seek-bunzip",
+        "hash": "13970570711651298484"
       },
       {
-        "file": ".git/index.lock",
-        "hash": "3244421341483603138"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/isHigherPrecedenceThanAwait.js",
+        "hash": "4262763897520045187"
       },
       {
-        "file": "apps/awesome/README.md",
-        "hash": "10628446155380042355"
+        "file": "node_modules/.pnpm/@typescript-eslint+typescript-estree@8.31.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/semver",
+        "hash": "7923193391768104167"
       },
       {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "9853452002857308663"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/flat/disable-type-checked.js",
+        "hash": "4509786619104151557"
       },
       {
-        "file": "apps/----/tsconfig.app.json",
-        "hash": "2919968956110878405"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-namespace.js",
+        "hash": "7297688419940164005"
+      },
+      {
+        "file": "node_modules/.bin/ts-node-dev",
+        "hash": "10732460886032207539"
+      },
+      {
+        "file": "node_modules/.bin/tsserver",
+        "hash": "13135824840775226796"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/consistent-return.js",
+        "hash": "2244185447260787339"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/tree-kill",
+        "hash": "17699795483473278400"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-inferrable-types.js",
+        "hash": "13855436463245609558"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/flat/strict.d.ts.map",
+        "hash": "15819932653843356954"
+      },
+      {
+        "file": "node_modules/.bin/nx",
+        "hash": "13490630613949261344"
+      },
+      {
+        "file": "node_modules/.bin/ts-node-esm",
+        "hash": "1748641702685501994"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/seek-table",
+        "hash": "848970155377108534"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/eslintrc/strict.js",
+        "hash": "15553619363397418117"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+type-utils@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/tsc",
+        "hash": "13830810282459919028"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/isTypeImport.js",
+        "hash": "7310712063931521825"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "981649109489284667"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-array-constructor.js",
+        "hash": "14527700585164995590"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/isAssignee.js",
+        "hash": "2174663041143044573"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/mkdirp",
+        "hash": "16962418483016975960"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/getMemberHeadLoc.d.ts.map",
+        "hash": "3281485680233053970"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+utils@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/eslint",
+        "hash": "17310720014341304636"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/consistent-type-imports.js",
+        "hash": "16987644533109363683"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-duplicate-enum-values.js",
+        "hash": "8497937979027719928"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/esparse",
+        "hash": "8641042091145475504"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/jake",
+        "hash": "4039503461128777365"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-type-alias.js",
+        "hash": "6666981145794288423"
       },
       {
         "file": "package.json",
-        "hash": "1600555822123220134"
+        "hash": "16193134797322134822"
       },
       {
-        "file": "apps/asjlkh-aljks/tsconfig.app.json",
-        "hash": "14880150030842434489"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/collectUnusedVariables.js",
+        "hash": "8930819865153623200"
       },
       {
-        "file": "dist/apps/hello-world/tsconfig.app.tsbuildinfo",
-        "hash": "5238544867372327259"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/dot-notation.js",
+        "hash": "14368283219390865283"
       },
       {
-        "file": "apps/----------/tsconfig.app.json",
-        "hash": "6883289871923179853"
+        "file": ".git/index",
+        "hash": "16127901579291047330"
       },
       {
-        "file": "apps/asjlkh-aljks/README.md",
-        "hash": "9118289577297185677"
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/prefer-readonly.js",
+        "hash": "14460311375138647300"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+type-utils@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/type-utils/node_modules/.bin/eslint",
+        "hash": "17310720014341304636"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/flat",
+        "hash": "3352434213995416424"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/await-thenable.js",
+        "hash": "16312561530794722731"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "apps/app/README.md",
-        "hash": "7054547929017127782"
-      },
-      {
-        "file": "apps/aaa/README.md",
-        "hash": "9664222570689516251"
-      },
-      {
-        "file": "apps/mmmmm/src/main.ts",
-        "hash": "4921122597942588408"
-      },
-      {
-        "file": "apps/----------/README.md",
-        "hash": "10916298137625938279"
-      },
-      {
-        "file": "apps/my-awesome-app/src/main.ts",
-        "hash": "11188029339462326590"
-      },
-      {
-        "file": ".nx/workspace-data/parsed-lock-file.json",
-        "hash": "5429697131219475748"
-      },
-      {
-        "file": "apps/asjlkh-aljks/src/main.ts",
-        "hash": "6131100691869797549"
-      },
-      {
-        "file": "dist/apps/hello-world/src/main.js.map",
-        "hash": "10872097813409847518"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "3006006681234177187"
-      },
-      {
-        "file": "apps/mmmmm/README.md",
-        "hash": "18400669983746336811"
-      },
-      {
-        "file": ".nx/workspace-data/project-graph.json",
-        "hash": "10439983894045084710"
-      },
-      {
-        "file": "apps/awesome/src/main.ts",
-        "hash": "14545256052320235701"
-      },
-      {
-        "file": ".git/FETCH_HEAD",
-        "hash": "8947424940856844263"
-      },
-      {
-        "file": "README.md",
-        "hash": "13220137790231281040"
-      },
-      {
-        "file": "apps/-----/tsconfig.app.json",
-        "hash": "12987548654064388754"
-      },
-      {
-        "file": "apps/----/README.md",
-        "hash": "14938469005959428568"
-      },
-      {
-        "file": "apps/-----/README.md",
-        "hash": "2091324609897998897"
+        "file": "dist/apps/hello-world/src/main.d.ts",
+        "hash": "3244421341483603138"
       },
       {
         "file": "apps/README.md",
         "hash": "3014423952044754237"
       },
       {
+        "file": "node_modules/.pnpm/node_modules/.bin/rimraf",
+        "hash": "16623124074436478294"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/esvalidate",
+        "hash": "16616070660737745272"
+      },
+      {
+        "file": "node_modules/.bin/eslint",
+        "hash": "2379433474681549201"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "13818027165820369339"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/eslintrc/stylistic-type-checked.d.ts.map",
+        "hash": "7499739026642829092"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-invalid-void-type.js",
+        "hash": "5986481873243442122"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "6567338680399941446"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/flat/all.js",
+        "hash": "11241011465206310539"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/is-docker",
+        "hash": "5971657298965912324"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16565693498612819144"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/consistent-indexed-object-style.js",
+        "hash": "4880319165345114409"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/yaml",
+        "hash": "12001040036123776852"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-restricted-types.js",
+        "hash": "8480515530649372"
+      },
+      {
+        "file": "node_modules/.bin/tsnd",
+        "hash": "10732460886032207539"
+      },
+      {
+        "file": "README.md",
+        "hash": "2215592933189547861"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/eslintrc/all.js",
+        "hash": "12245851370813862988"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/needsPrecedingSemiColon.js",
+        "hash": "17241351703769726710"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/json5",
+        "hash": "8277650192870417193"
+      },
+      {
+        "file": "scripts/build.mts",
+        "hash": "14992026056921787329"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/js-yaml",
+        "hash": "2956001725702478590"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/docs/rules/func-call-spacing.md",
+        "hash": "16204523685310300716"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "842824081570573871"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/docs/rules/quotes.md",
+        "hash": "16204523685310300716"
+      },
+      {
+        "file": "node_modules/.bin/ts-script",
+        "hash": "2510301079375396807"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-dynamic-delete.js",
+        "hash": "4269104787075776063"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-confusing-void-expression.js",
+        "hash": "11015684939490060337"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-unnecessary-boolean-literal-compare.js",
+        "hash": "10848911764076267823"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "1713148344542129888"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/eslintrc/disable-type-checked.js",
+        "hash": "4127362132834454838"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/semver",
+        "hash": "1697682218562420153"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-shadow.js",
+        "hash": "6905929538864948124"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/needsToBeAwaited.js",
+        "hash": "16680740667216277936"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-explicit-any.js",
+        "hash": "9173614620800644340"
+      },
+      {
+        "file": "apps/tsconfig.app.json",
+        "hash": "9028862827748660903"
+      },
+      {
+        "file": "node_modules/.bin/swcx",
+        "hash": "14106951925863970861"
+      },
+      {
+        "file": "dist/apps/hello-world/tsconfig.app.tsbuildinfo",
+        "hash": "5238544867372327259"
+      },
+      {
+        "file": "dist/apps/hello-world/src/main.js.map",
+        "hash": "10872097813409847518"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+utils@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/tsc",
+        "hash": "13830810282459919028"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+typescript-estree@8.31.0_typescript@5.8.3/node_modules/@typescript-eslint/typescript-estree/node_modules/.bin/tsc",
+        "hash": "13830810282459919028"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/member-ordering.js",
+        "hash": "215410179318794402"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "17012323475936209419"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/naming-convention.js",
+        "hash": "13165929059167365908"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-unnecessary-parameter-property-assignment.js",
+        "hash": "12496897164943653906"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/detect-port",
+        "hash": "8098477036485098605"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/docs/rules/space-before-function-paren.md",
+        "hash": "16204523685310300716"
+      },
+      {
+        "file": "node_modules/.bin/tsc",
+        "hash": "18283958374940267933"
+      },
+      {
+        "file": ".nx/workspace-data/nx_files.nxt",
+        "hash": "6538124163473798302"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/misc.js",
+        "hash": "6096951331751348036"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-unnecessary-type-constraint.d.ts.map",
+        "hash": "3988728203325155259"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/node-which",
+        "hash": "8057942947781439496"
+      },
+      {
+        "file": "node_modules/.pnpm/ts-api-utils@2.1.0_typescript@5.8.3/node_modules/ts-api-utils/node_modules/.bin/tsserver",
+        "hash": "10235744214835495874"
+      },
+      {
+        "file": "node_modules/.bin/swc",
+        "hash": "15891130311624579629"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/ejs",
+        "hash": "17839707327925728091"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/getMemberHeadLoc.js",
+        "hash": "2204062600413843135"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/ban-tslint-comment.js",
+        "hash": "577353927848818545"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/getForStatementHeadLoc.js",
+        "hash": "8370723637321674017"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/detect",
+        "hash": "8098477036485098605"
+      },
+      {
+        "file": "node_modules/.bin/ts-node-transpile-only",
+        "hash": "15648395680307117142"
+      },
+      {
+        "file": "node_modules/.bin/nx-cloud",
+        "hash": "16972087923414562536"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "4944654942600550510"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-magic-numbers.js",
+        "hash": "2155392381906380032"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/getWrappedCode.js",
+        "hash": "678107851334181241"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/index.d.ts.map",
+        "hash": "16785434336167678854"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/consistent-type-imports.d.ts.map",
+        "hash": "13049028380510993882"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-confusing-non-null-assertion.js",
+        "hash": "14652727970859793026"
+      },
+      {
         "file": "dist/apps/hello-world/src/main.js",
         "hash": "12909933836786697726"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/prefer-optional-chain-utils/gatherLogicalOperands.d.ts.map",
+        "hash": "14665380307904489368"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/tsserver",
+        "hash": "5043864045763520464"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-unnecessary-qualifier.js",
+        "hash": "11981302745865787956"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/resolve",
+        "hash": "11636427847321406083"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/regjsparser",
+        "hash": "15686484383432817495"
+      },
+      {
+        "file": "node_modules/.bin/ts-node-script",
+        "hash": "130117133969842361"
+      },
+      {
+        "file": "node_modules/.bin/ts-node",
+        "hash": "17274645786692572761"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/parser",
+        "hash": "5034749390666906316"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-unnecessary-template-expression.js",
+        "hash": "8015863825890313262"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/prefer-readonly.d.ts.map",
+        "hash": "2274684111047879557"
+      },
+      {
+        "file": "node_modules/.bin/spack",
+        "hash": "14683891762126294561"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/jsesc",
+        "hash": "11619943320189608408"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/tsc",
+        "hash": "13830810282459919028"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/typedef.d.ts.map",
+        "hash": "15076628597760506567"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/browserslist",
+        "hash": "17647051066838191292"
+      },
+      {
+        "file": "node_modules/.bin/ts-node-cwd",
+        "hash": "4610824445857498817"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+parser@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/eslint",
+        "hash": "17310720014341304636"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-unsafe-function-type.d.ts.map",
+        "hash": "5507303172193766078"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/acorn",
+        "hash": "18215883549049481565"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/getFunctionHeadLoc.js",
+        "hash": "18308192117629921755"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/configs/flat/base.js",
+        "hash": "13610052766297956148"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-invalid-this.js",
+        "hash": "16024212527274156671"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+parser@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/parser/node_modules/.bin/tsserver",
+        "hash": "5043864045763520464"
+      },
+      {
+        "file": "node_modules/.bin/prettier",
+        "hash": "14046216873085257537"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-for-in-array.js",
+        "hash": "7051402602433967458"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-misused-new.js",
+        "hash": "12625718457172978960"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+utils@8.31.0_eslint@9.25.1_typescript@5.8.3/node_modules/@typescript-eslint/utils/node_modules/.bin/tsserver",
+        "hash": "5043864045763520464"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "10567648358701963438"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/docs/rules/object-curly-spacing.md",
+        "hash": "16204523685310300716"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/util/assertionFunctionUtils.js",
+        "hash": "6577890428915768667"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/explicit-function-return-type.js",
+        "hash": "1388717963289154637"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-this-alias.js",
+        "hash": "17711318636368144151"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-redundant-type-constituents.js",
+        "hash": "10495030981468384173"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-base-to-string.js",
+        "hash": "10446525357899873818"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-deprecated.js",
+        "hash": "12510473512825725693"
+      },
+      {
+        "file": "node_modules/.pnpm/node_modules/.bin/update-browserslist-db",
+        "hash": "15951977959157641857"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14222408001590126325"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/explicit-member-accessibility.js",
+        "hash": "18322974843180516433"
+      },
+      {
+        "file": "node_modules/.pnpm/ts-api-utils@2.1.0_typescript@5.8.3/node_modules/ts-api-utils/node_modules/.bin/tsc",
+        "hash": "15298368373798091972"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/no-extra-non-null-assertion.js",
+        "hash": "18040898507499959396"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin_tmp_30110/dist/rules/consistent-type-exports.js",
+        "hash": "14839022461576380727"
+      },
+      {
+        "file": "node_modules/.pnpm/@typescript-eslint+eslint-plugin@8.31.0_@typescript-eslint+parser@8.31.0_eslint@9.25.1_typesc_llrqbjrlwsknj7zldmeo3luihy/node_modules/@typescript-eslint/eslint-plugin/node_modules/.bin/eslint",
+        "hash": "17310720014341304636"
       }
     ],
     "projectFileMap": {
+      "frog": [
+        {
+          "file": "apps/frog/.env",
+          "hash": "10854803549728006028"
+        },
+        {
+          "file": "apps/frog/README.md",
+          "hash": "3837149438650765872"
+        },
+        {
+          "file": "apps/frog/project.json",
+          "hash": "1507638944637357253"
+        },
+        {
+          "file": "apps/frog/src/main.ts",
+          "hash": "2861969747797474589",
+          "deps": [
+            "npm:dotenv"
+          ]
+        }
+      ],
+      "sadf": [
+        {
+          "file": "apps/sadf/.env",
+          "hash": "10854803549728006028"
+        },
+        {
+          "file": "apps/sadf/README.md",
+          "hash": "2449018918739986020"
+        },
+        {
+          "file": "apps/sadf/project.json",
+          "hash": "12388165149224638277"
+        },
+        {
+          "file": "apps/sadf/src/main.ts",
+          "hash": "2861969747797474589",
+          "deps": [
+            "npm:dotenv"
+          ]
+        }
+      ],
+      "jjjj": [
+        {
+          "file": "apps/jjjj/.env",
+          "hash": "8618346332100414241"
+        },
+        {
+          "file": "apps/jjjj/README.md",
+          "hash": "3133732385288640531"
+        },
+        {
+          "file": "apps/jjjj/project.json",
+          "hash": "312256331992746382"
+        },
+        {
+          "file": "apps/jjjj/src/main.ts",
+          "hash": "10138368457353108131",
+          "deps": [
+            "npm:dotenv"
+          ]
+        }
+      ],
       "company-generators": [
         {
           "file": "tools/.swcrc",
@@ -218,7 +721,7 @@
         },
         {
           "file": "tools/package.json",
-          "hash": "15932262878780005230",
+          "hash": "4485913336562433410",
           "deps": [
             "npm:tslib"
           ]
@@ -233,18 +736,19 @@
         },
         {
           "file": "tools/src/generators/custom-app/index.ts",
-          "hash": "4030036707332896747",
+          "hash": "6219308024185018716",
           "deps": [
-            "npm:@nx/devkit"
+            "npm:@nx/devkit",
+            "npm:enquirer"
           ]
         },
         {
           "file": "tools/src/generators/custom-app/schema.d.ts",
-          "hash": "4767670293440286711"
+          "hash": "9847522040205641040"
         },
         {
           "file": "tools/src/generators/custom-app/schema.json",
-          "hash": "14398318012247726680"
+          "hash": "16257057142604457709"
         },
         {
           "file": "tools/src/index.ts",
@@ -252,7 +756,7 @@
         },
         {
           "file": "tools/tsconfig.json",
-          "hash": "9399469649748610155"
+          "hash": "6492394624942334128"
         },
         {
           "file": "tools/tsconfig.lib.json",
@@ -263,18 +767,25 @@
           "hash": "7179889087298174371"
         }
       ],
-      "hello-world": [
+      "saedf": [
         {
-          "file": "apps/hello-world/project.json",
-          "hash": "11706629932077922923"
+          "file": "apps/saedf/.env",
+          "hash": "10854803549728006028"
         },
         {
-          "file": "apps/hello-world/src/main.ts",
-          "hash": "13513060486134305079"
+          "file": "apps/saedf/README.md",
+          "hash": "12116195003270347448"
         },
         {
-          "file": "apps/hello-world/tsconfig.app.json",
-          "hash": "5720295292316315774"
+          "file": "apps/saedf/project.json",
+          "hash": "15799234863900018455"
+        },
+        {
+          "file": "apps/saedf/src/main.ts",
+          "hash": "2861969747797474589",
+          "deps": [
+            "npm:dotenv"
+          ]
         }
       ]
     }

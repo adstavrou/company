@@ -1,15 +1,12 @@
 {
-    "$schema": "http://json-schema.org/schema",
-    "title": "Custom App Generator",
-    "type": "object",
-    "properties": {
+  "$schema": "http://json-schema.org/schema",
+  "title": "Custom App Generator",
+  "type": "object",
+  "properties": {
     "name": {
       "type": "string",
-      "description": "The name of the app",
-      "positional": true,
-      "x-prompt": "What is the name of the app?",
-      "minLength": 1
+      "description": "The name of the app"
     }
   }
-  }
+}
   

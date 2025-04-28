@@ -2,6 +2,7 @@
   "name": "company",
   "private": true,
   "version": "0.0.1",
+  "type": "module",
   "description": "",
   "author": "Alexandros Stavrou",
   "license": "No Trespassing",
@@ -15,12 +16,27 @@
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
     "@types/node": "18.16.9",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "enquirer": "^2.4.1",
+    "esbuild": "^0.25.3",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
     "nx": "20.8.1",
-    "prettier": "^2.6.2",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "tslib": "^2.3.0",
     "typescript": "^5.8.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  },
+  "scripts": {
+    "build:app": "node --loader ts-node/esm scripts/build.mts",
+    "start:app": "node dist/my-awesome-app/main.js",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  }
 }
