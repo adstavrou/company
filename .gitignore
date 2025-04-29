@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+
+# macOS system files
+.DS_Store
+
+# Nx workspace cache
+.nx/
+
+# Logs
+*.log
