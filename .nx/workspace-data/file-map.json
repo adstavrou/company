@@ -10,321 +10,83 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".git/COMMIT_EDITMSG",
-        "hash": "1620672947554401650"
-      },
-      {
-        "file": ".git/objects/41/01ca056ca6e7d78821862108fd506370d8041c",
-        "hash": "13957422028288586047"
-      },
-      {
-        "file": ".git/logs/refs/heads/main",
-        "hash": "7547999414629025740"
-      },
-      {
-        "file": ".git/objects/92/42a8c98a56f1feff83140589293a95d88c469a",
-        "hash": "5072128857329581723"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "13818027165820369339"
-      },
-      {
-        "file": ".git/objects/3c/835a6b49944fd308aa82a0e431a40c4ccc2c9d",
-        "hash": "11411611246282998804"
-      },
-      {
-        "file": ".git/objects/50/c6882a7bd07840c553d5962a0a9d28ab073c77",
-        "hash": "5626646569403091945"
-      },
-      {
-        "file": ".git/objects/5b/71e301af9951e62bcd61b5a4651f214ae695bf",
-        "hash": "17962511734683866379"
-      },
-      {
-        "file": ".git/objects/8a/f01c73c97dc5f0fa2523c2255ba1ef39f4665d",
-        "hash": "16763904575885131904"
-      },
-      {
-        "file": ".nx/workspace-data/parsed-lock-file.json",
-        "hash": "14877768043652618791"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "4223908809986306205"
-      },
-      {
-        "file": ".git/objects/d8/b8f46c5be06ebab2f2022c6dd0ead1639b5d5d",
-        "hash": "17814222935710254450"
-      },
-      {
-        "file": ".git/objects/75/498dc9428b96697e03bc9f8b30a2d0e94cddee",
-        "hash": "4179420418838393850"
-      },
-      {
-        "file": ".git/objects/70/049738d0a445ecfe6f4c52512be8dd4f81a328",
-        "hash": "8277963575986056782"
-      },
-      {
-        "file": ".git/objects/56/d828160107186000de09e1b279e79da6e9e580",
-        "hash": "15285043768700906313"
-      },
-      {
-        "file": "dist/apps/hello-world/src/main.js",
-        "hash": "12909933836786697726"
-      },
-      {
-        "file": ".git/objects/c5/750fd991a4255e54c4a1d68defc605003e3d9d",
-        "hash": "18121581610867916416"
-      },
-      {
-        "file": ".git/index.lock",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".git/objects/89/02b010b355f5bfa8f403e12ff4aa2005e7521b",
-        "hash": "10043320105456899878"
-      },
-      {
-        "file": ".git/FETCH_HEAD",
-        "hash": "4596997732853163553"
+        "file": "tsconfig.json",
+        "hash": "4944654942600550510"
       },
       {
         "file": "package.json",
         "hash": "10756309092791018241"
       },
       {
-        "file": ".git/objects/3b/c652a5c916c9964f09cbdde224a92f8f6042f8",
-        "hash": "17877231738609544241"
-      },
-      {
-        "file": ".git/objects/e4/602f2164b3128f9b37013c5a7a4b1cc03ac64b",
-        "hash": "13033669565932217952"
-      },
-      {
-        "file": ".git/objects/f1/a1fc3874fc2c928d4389685ce64f6b01789844",
-        "hash": "223494467370956420"
-      },
-      {
-        "file": "dist/apps/hello-world/tsconfig.app.tsbuildinfo",
-        "hash": "5238544867372327259"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "11948177500014412512"
       },
       {
         "file": ".nx/workspace-data/lockfile.hash",
         "hash": "14984184037431690866"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "17837299179963891856"
-      },
-      {
-        "file": ".git/objects/cf/fb5985efaeff0e3a1cf6efdd3ba3faf77e63b0",
-        "hash": "14129409744510547438"
-      },
-      {
-        "file": ".git/refs/remotes/origin/main",
-        "hash": "6352729449439414164"
-      },
-      {
-        "file": ".git/objects/36/d71e1ffee48d62da9573ced921c87d76965df3",
-        "hash": "15805543476376244954"
-      },
-      {
-        "file": ".nx/workspace-data/file-map.json",
-        "hash": "7341742826648891400"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "11000008558807910298"
-      },
-      {
-        "file": ".git/objects/a3/9368d6a8a92455192e444105d3121cc0744eb9",
-        "hash": "15259005934622481962"
-      },
-      {
-        "file": ".git/objects/fc/c28b571f60858084513037155c4b5bccfe3dc6",
-        "hash": "11989233801057925777"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "10948972361536618453"
-      },
-      {
-        "file": ".git/objects/aa/4fac1e3a0d3ba75eafb989e89524a1aea5437d",
-        "hash": "22018363752471874"
-      },
-      {
-        "file": "dist/apps/hello-world/src/main.d.ts",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "4944654942600550510"
-      },
-      {
-        "file": ".git/index",
-        "hash": "17101571787553923873"
-      },
-      {
-        "file": ".git/objects/ee/3adf092fbd8e47a198c7705b9f19d31ee5724d",
-        "hash": "9690004264893315686"
-      },
-      {
-        "file": ".git/objects/6a/93dc00485932f865e1a8feee22b40fcf6808bc",
-        "hash": "10232360877933921674"
+        "file": "pnpm-workspace.yaml",
+        "hash": "13818027165820369339"
       },
       {
         "file": ".prettierrc",
         "hash": "14673242905738224674"
       },
       {
-        "file": ".git/objects/0f/b64b97e6457420d52920ebdfd72477a60bd8db",
-        "hash": "10600753731520802181"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16565693498612819144"
-      },
-      {
-        "file": "dist/apps/hello-world/src/main.js.map",
-        "hash": "10872097813409847518"
-      },
-      {
-        "file": ".git/objects/9b/31756a4692b1cfd66b353d6dc1edf922b18565",
-        "hash": "7285115111393172269"
-      },
-      {
-        "file": ".git/objects/3f/99de45e68527ccc59c675c55bf6e501ee77231",
-        "hash": "5987680618827548939"
-      },
-      {
-        "file": ".git/logs/HEAD",
-        "hash": "7547999414629025740"
-      },
-      {
-        "file": ".git/objects/d7/da5ac993d3c313f9f2dfb8777ad8a1eabb22fa",
-        "hash": "9619922429282597835"
-      },
-      {
-        "file": ".git/objects/b9/69b226ce5fbcbf2fe13ddf4cf00bef6ae1d630",
-        "hash": "8936616398101653125"
-      },
-      {
-        "file": ".git/objects/f0/9ec627319572a0922dc2644b7c2d086ab67d7a",
-        "hash": "17233098020036872159"
-      },
-      {
-        "file": ".git/refs/heads/main",
-        "hash": "6352729449439414164"
-      },
-      {
-        "file": ".git/objects/be/7dc78fb228c169195e92e52ac1e02375047276",
-        "hash": "11660126446390712669"
-      },
-      {
-        "file": ".nx/workspace-data/source-maps.json",
-        "hash": "8360746588226482168"
-      },
-      {
-        "file": ".git/objects/3c/7fa5d39eb11d32e4b24ecb76f7ef47e9309573",
-        "hash": "1366248099298612036"
+        "file": ".vscode/extensions.json",
+        "hash": "17837299179963891856"
       },
       {
         "file": "nx.json",
         "hash": "6221947001720174088"
       },
       {
-        "file": ".git/objects/80/b2f133917d7a1c81b4cbc84184f477c682af3c",
-        "hash": "1860734310539931313"
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       },
       {
-        "file": ".git/objects/46/ec9070c726110890771996908f66de28e8150c",
-        "hash": "1483563201880915980"
+        "file": ".git/FETCH_HEAD",
+        "hash": "8038802643237007663"
       },
       {
-        "file": ".git/objects/fc/9dd5aee673873db0b31802c0990cf3c4c88a48",
-        "hash": "17866634766990269163"
-      },
-      {
-        "file": ".git/objects/cc/664c0369b44b76874ddbea22403062b996088a",
-        "hash": "7397982683814680232"
-      },
-      {
-        "file": ".git/objects/72/d4efadf8d8bcd02a7cd5bad9d2dc5287574dce",
-        "hash": "5710633081541281186"
-      },
-      {
-        "file": ".git/objects/32/9369f0191e46b8d7571e876f0650483a2d7a5f",
-        "hash": "5001943906462938367"
+        "file": "eslint.config.mjs",
+        "hash": "4223908809986306205"
       },
       {
         "file": "README.md",
         "hash": "2773124885554477551"
       },
       {
-        "file": ".git/objects/19/9eb5bc8705d22cc2a6dd74081ff75717e9729e",
-        "hash": "13513270967595534076"
-      },
-      {
         "file": "scripts/build.mts",
         "hash": "14992026056921787329"
       },
       {
-        "file": ".git/objects/8c/69d55a34e5a7351955e9a09e11dbc7e2aac747",
-        "hash": "18410877228676805233"
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "14877768043652618791"
       },
       {
-        "file": ".git/objects/8f/a7e8e757ab7f9481ab074ccd9a86f100b09fe8",
-        "hash": "444371258341654310"
+        "file": "pnpm-lock.yaml",
+        "hash": "10948972361536618453"
       },
       {
-        "file": ".git/logs/refs/remotes/origin/main",
-        "hash": "6077361444404384725"
-      },
-      {
-        "file": ".git/objects/10/a420a345c8fb28bf2cb9554248a28dc52b8c36",
-        "hash": "3387873273691175484"
-      },
-      {
-        "file": ".git/objects/ec/3c8ac26493c88207ab47357c5f4d728fe2999f",
-        "hash": "4074042733426453868"
+        "file": ".vscode/settings.json",
+        "hash": "11000008558807910298"
       },
       {
         "file": ".nx/workspace-data/project-graph.json",
-        "hash": "5492784972608832361"
+        "hash": "11566168599186545280"
       },
       {
-        "file": ".git/objects/1c/bea5bc1cfdfa94f691faa7693fbbab392e1ebb",
-        "hash": "14527055554614389831"
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "15423125973862550091"
       },
       {
-        "file": ".git/objects/bf/756f30db9b8ded6b0ff675e06eb6143a69f79f",
-        "hash": "6912477481931741801"
-      },
-      {
-        "file": ".git/objects/c4/fdcf28cc8f846100848fc6281f94a966e70e3e",
-        "hash": "10397369999394130910"
+        "file": "tsconfig.base.json",
+        "hash": "16565693498612819144"
       }
     ],
     "projectFileMap": {
-      "terra": [
-        {
-          "file": "libs/terra/README.md",
-          "hash": "15844673678650950574"
-        },
-        {
-          "file": "libs/terra/project.json",
-          "hash": "15998465539093496954"
-        },
-        {
-          "file": "libs/terra/src/index.ts",
-          "hash": "4934739166410074739"
-        }
-      ],
       "company-generators": [
         {
           "file": "tools/.swcrc",
@@ -371,11 +133,11 @@
         },
         {
           "file": "tools/src/generators/custom-lib/README.md",
-          "hash": "6044178382991151100"
+          "hash": "13304748579487104446"
         },
         {
           "file": "tools/src/generators/custom-lib/index.ts",
-          "hash": "5648428969335442522",
+          "hash": "8808868201381443969",
           "deps": [
             "npm:@nx/devkit",
             "npm:enquirer"
@@ -383,11 +145,11 @@
         },
         {
           "file": "tools/src/generators/custom-lib/schema.d.ts",
-          "hash": "5317951525879754090"
+          "hash": "2038337965798481466"
         },
         {
           "file": "tools/src/generators/custom-lib/schema.json",
-          "hash": "2699541811070233808"
+          "hash": "7985610935041245223"
         },
         {
           "file": "tools/src/generators/custom-service/README.md",
@@ -426,18 +188,25 @@
           "hash": "4064180094148051181"
         }
       ],
-      "ursus": [
+      "dice-roller": [
         {
-          "file": "libs/ursus/README.md",
-          "hash": "325863738162155196"
+          "file": "apps/dice-roller/.env",
+          "hash": "10854803549728006028"
         },
         {
-          "file": "libs/ursus/project.json",
-          "hash": "12648802855103194698"
+          "file": "apps/dice-roller/README.md",
+          "hash": "9001751572829646399"
         },
         {
-          "file": "libs/ursus/src/index.ts",
-          "hash": "17269400990216826819"
+          "file": "apps/dice-roller/project.json",
+          "hash": "10104324054452593060"
+        },
+        {
+          "file": "apps/dice-roller/src/main.ts",
+          "hash": "2861969747797474589",
+          "deps": [
+            "npm:dotenv"
+          ]
         }
       ]
     }

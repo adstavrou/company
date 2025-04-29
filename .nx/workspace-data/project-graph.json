@@ -1,67 +1,5 @@
 {
   "nodes": {
-    "terra": {
-      "name": "terra",
-      "type": "lib",
-      "data": {
-        "root": "libs/terra",
-        "name": "terra",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "libs/terra/src",
-        "projectType": "library",
-        "tags": [],
-        "targets": {
-          "build": {
-            "executor": "nx:run-commands",
-            "options": {
-              "command": "echo 'Building ${libName}...'"
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "executor": "nx:run-commands",
-            "options": {
-              "command": "echo 'Running tests for ${libName}...'"
-            },
-            "configurations": {},
-            "parallelism": true
-          }
-        },
-        "implicitDependencies": []
-      }
-    },
-    "ursus": {
-      "name": "ursus",
-      "type": "lib",
-      "data": {
-        "root": "libs/ursus",
-        "name": "ursus",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "libs/ursus/src",
-        "projectType": "library",
-        "tags": [],
-        "targets": {
-          "build": {
-            "executor": "nx:run-commands",
-            "options": {
-              "command": "echo 'Building ${libName}...'"
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "executor": "nx:run-commands",
-            "options": {
-              "command": "echo 'Running tests for ${libName}...'"
-            },
-            "configurations": {},
-            "parallelism": true
-          }
-        },
-        "implicitDependencies": []
-      }
-    },
     "company-generators": {
       "name": "company-generators",
       "type": "lib",
@@ -6542,8 +6480,6 @@
     }
   },
   "dependencies": {
-    "terra": [],
-    "ursus": [],
     "company-generators": [
       {
         "source": "company-generators",
@@ -14804,6 +14740,42 @@
     ]
   },
   "version": "6.0",
-  "errors": [],
-  "computedAt": 1745889768193
+  "errors": [
+    {
+      "stack": " - apps/dice-roller/project.json: Error: ENOENT: no such file or directory, open '/Users/alexandrosstavrou/Projects/mine/company/apps/dice-roller/project.json'\n    at readFileSync (node:fs:453:20)\n    at readJsonFile (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/utils/fileutils.js:27:48)\n    at /Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/plugins/project-json/build-nodes/project-json.js:16:59\n    at /Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/utils.js:10:33\n    at Array.map (<anonymous>)\n    at createNodesFromFiles (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/utils.js:8:35)\n    at exports.ProjectJsonProjectsPlugin.createNodesV2 (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/plugins/project-json/build-nodes/project-json.js:15:55)\n    at LoadedNxPlugin.createNodes (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:26:65)\n    at LoadedNxPlugin.createNodes.<computed> (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:36:34)\n    at createNodes (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:76:63)",
+      "message": "An error occurred while processing files for the nx/core/project-json plugin\n.\n  - apps/dice-roller/project.json: ENOENT: no such file or directory, open '/Users/alexandrosstavrou/Projects/mine/company/apps/dice-roller/project.json'",
+      "errors": [
+        [
+          "apps/dice-roller/project.json",
+          {
+            "stack": "Error: ENOENT: no such file or directory, open '/Users/alexandrosstavrou/Projects/mine/company/apps/dice-roller/project.json'\n    at readFileSync (node:fs:453:20)\n    at readJsonFile (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/utils/fileutils.js:27:48)\n    at /Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/plugins/project-json/build-nodes/project-json.js:16:59\n    at /Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/utils.js:10:33\n    at Array.map (<anonymous>)\n    at createNodesFromFiles (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/utils.js:8:35)\n    at exports.ProjectJsonProjectsPlugin.createNodesV2 (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/plugins/project-json/build-nodes/project-json.js:15:55)\n    at LoadedNxPlugin.createNodes (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:26:65)\n    at LoadedNxPlugin.createNodes.<computed> (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/loaded-nx-plugin.js:36:34)\n    at createNodes (/Users/alexandrosstavrou/Projects/mine/company/node_modules/.pnpm/nx@20.8.1_@swc-node+register@1.9.2_@swc+core@1.5.29_@swc+helpers@0.5.17__@swc+types@0.1.21_ty_24bzhxgp2bevvmfbj23qmqh36u/node_modules/nx/src/project-graph/plugins/isolation/plugin-worker.js:76:63)",
+            "message": "ENOENT: no such file or directory, open '/Users/alexandrosstavrou/Projects/mine/company/apps/dice-roller/project.json'",
+            "errno": -2,
+            "code": "ENOENT",
+            "syscall": "open",
+            "path": "/Users/alexandrosstavrou/Projects/mine/company/apps/dice-roller/project.json"
+          }
+        ]
+      ],
+      "partialResults": [
+        [
+          "tools/project.json",
+          {
+            "projects": {
+              "tools": {
+                "name": "company-generators",
+                "root": "tools",
+                "sourceRoot": "tools/src",
+                "projectType": "library",
+                "targets": {},
+                "tags": []
+              }
+            }
+          }
+        ]
+      ],
+      "name": "AggregateCreateNodesError"
+    }
+  ],
+  "computedAt": 1745935633751
 }

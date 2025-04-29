@@ -14,6 +14,19 @@
         "unitTest": {
             "type": "boolean",
             "description": "Add unit tests?"
+        },
+        "files": {
+            "type": "array",
+            "description": "Which extra files to create in src/",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "utils",
+                    "constants",
+                    "types"
+                ]
+            },
+            "default": []
         }
     },
     "required": []

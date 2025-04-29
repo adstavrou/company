@@ -1,6 +1,6 @@
 # 📚 Custom Library Generator - `custom-lib`
 
-This generator creates **simple library projects** inside the `libs/` directory.
+This generator creates a new library inside the `libs/` folder with optional support for additional utility files.
 
 ---
 
@@ -10,12 +10,18 @@ This generator creates **simple library projects** inside the `libs/` directory.
 
 ```bash
 pnpm exec nx g company-generators:custom-lib
+or
+pnpm exec nx g company-generators:custom-lib --name=shared-core --files=utils,types
 ```
 
 **You will be prompted for:**
-- The name of the library
-- Whether you want to add a build target
-- Whether you want to add a unit testing setup
+- 🐸 Library name: Name of the new lib folder (e.g. shared)
+- 🐸 Add build target?: Adds a build command to project.json
+- 🐸 Add unit testing setup?: Adds testing setup (optional)
+- Select additional files:
+  - utils.ts
+  - constants.ts
+  - types.ts
 
 ---
 
@@ -30,12 +36,14 @@ pnpm exec nx g company-generators:custom-lib --name=my-utils
 ### 📦 What it generates
 
 ```
-libs/
-└── my-utils/
-    ├── src/
-    │   └── index.ts
-    ├── README.md
-    └── project.json
+libs/shared/
+├── src/
+│   ├── index.ts
+│   ├── utils.ts
+│   ├── constants.ts
+│   └── types.ts
+├── README.md
+└── project.json
 ```
 - index.ts: Basic starting file with a simple export.
 
@@ -77,4 +85,14 @@ libs/super-utils/
 
 - The generated library is a minimal starting point and can be extended as needed.
 
+- The files option is optional and supports comma-separated values:
+```bash
+--files=utils,constants
+```
+
 ---
+
+✅ This generator is part of company-generators
+Feel free to extend it as your monorepo grows!
+
+## Have Fun 🐸
