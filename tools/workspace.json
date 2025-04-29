@@ -1,14 +1,19 @@
 {
-    "generators": {
-      "custom-app": {
-        "factory": "./src/generators/custom-app/index.ts",
-        "schema": "./src/generators/custom-app/schema.json",
-        "description": "Create a new custom app (with build ready)"
-      },
-      "custom-lib": {
-        "factory": "./tools/src/generators/custom-lib",
-        "schema": "./tools/src/generators/custom-lib/schema.json",
-        "description": "Create a custom library"
-      }
+  "generators": {
+    "custom-app": {
+      "factory": "./src/generators/custom-app/index.ts",
+      "schema": "./src/generators/custom-app/schema.json",
+      "description": "Create a new custom app (with build ready)"
+    },
+    "custom-lib": {
+      "factory": "./tools/src/generators/custom-lib",
+      "schema": "./tools/src/generators/custom-lib/schema.json",
+      "description": "Create a custom library"
+    },
+    "custom-service": {
+      "factory": "./tools/src/generators/custom-service",
+      "schema": "./tools/src/generators/custom-service/schema.json",
+      "description": "Create a new service class inside a library"
     }
   }
+}
