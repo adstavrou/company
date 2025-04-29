@@ -49,251 +49,127 @@
       "nx/core/project-json"
     ]
   },
-  "apps/frog": {
+  "libs/terra": {
     "root": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "name": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "targets.build": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "targets.build.executor": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "apps/frog/project.json",
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
-    "targets.start": [
-      "apps/frog/project.json",
+    "targets.test": [
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
-    "targets.start.executor": [
-      "apps/frog/project.json",
+    "targets.test.executor": [
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
-    "targets.start.options": [
-      "apps/frog/project.json",
+    "targets.test.options": [
+      "libs/terra/project.json",
       "nx/core/project-json"
     ],
-    "targets.start.options.command": [
-      "apps/frog/project.json",
+    "targets.test.options.command": [
+      "libs/terra/project.json",
       "nx/core/project-json"
     ]
   },
-  "apps/jjjj": {
+  "libs/ursus": {
     "root": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "name": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "$schema": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "projectType": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "tags": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "targets": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "targets.build": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "targets.build.executor": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
     "targets.build.options.command": [
-      "apps/jjjj/project.json",
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
-    "targets.start": [
-      "apps/jjjj/project.json",
+    "targets.test": [
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
-    "targets.start.executor": [
-      "apps/jjjj/project.json",
+    "targets.test.executor": [
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
-    "targets.start.options": [
-      "apps/jjjj/project.json",
+    "targets.test.options": [
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ],
-    "targets.start.options.command": [
-      "apps/jjjj/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "apps/sadf": {
-    "root": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "name": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.command": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start.executor": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start.options": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start.options.command": [
-      "apps/sadf/project.json",
-      "nx/core/project-json"
-    ]
-  },
-  "apps/saedf": {
-    "root": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "name": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.command": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start.executor": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start.options": [
-      "apps/saedf/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.start.options.command": [
-      "apps/saedf/project.json",
+    "targets.test.options.command": [
+      "libs/ursus/project.json",
       "nx/core/project-json"
     ]
   }

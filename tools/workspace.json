@@ -4,6 +4,11 @@
         "factory": "./src/generators/custom-app/index.ts",
         "schema": "./src/generators/custom-app/schema.json",
         "description": "Create a new custom app (with build ready)"
+      },
+      "custom-lib": {
+        "factory": "./tools/src/generators/custom-lib",
+        "schema": "./tools/src/generators/custom-lib/schema.json",
+        "description": "Create a custom library"
       }
     }
   }

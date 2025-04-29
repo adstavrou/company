@@ -69,6 +69,63 @@ company/
 └── README.md
 ```
 
+---
+---
+# 🛠️ Company Monorepo Cheatsheet
+
+## 🚀 Custom Generators
+
+| Purpose    | Command Example |
+| -------- | ------- |
+| Create a new App | `pnpm exec nx g company-generators:custom-app --name=my-awesome-app` |
+| Create a new Lib	 | `pnpm exec nx g company-generators:custom-lib --name=my-utils-lib` |
+| Create a Service	    | `pnpm exec nx g company-generators:custom-service --name=my-service`	    |
+
+---
+
+## 🛠️ Linting
+
+| Purpose    | Command Example |
+| -------- | ------- |
+| Lint all files | `pnpm run lint` |
+| Auto-fix lint issues		 | Save the file in VSCode (with ESLint & Format on Save enabled) |
+
+---
+
+## 🧹 Cleaning
+
+| Purpose    | Command |
+| -------- | ------- |
+| Clean node_modules	 | `pnpm install --force` |
+| Clean Nx cache/temp	 | pnpm exec nx reset |
+
+---
+
+# 📚 Notes
+- Always prefer running generators instead of copy-pasting folders manually.
+
+- Keep the workspace clean: run `pnpm run lint` and `pnpm exec nx format:write` before commits.
+
+- Prefer let for variables (unless you're 100% sure it ***MUST*** not change).
+
+---
+
+# ⚡ Example Generator Run
+```bash
+pnpm exec nx g company-generators:custom-app --name=my-app
+```
+**Creates:**
+```
+apps/
+└── my-app/
+    ├── src/
+    │   └── main.ts
+    ├── .env
+    ├── README.md
+    └── project.json
+```
+
+# 🐸 Have fun
 
 
-                                                            
+                                    

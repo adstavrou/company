@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Custom Lib Generator",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Library name"
+        },
+        "build": {
+            "type": "boolean",
+            "description": "Add build target?"
+        },
+        "unitTest": {
+            "type": "boolean",
+            "description": "Add unit tests?"
+        }
+    },
+    "required": []
+}
