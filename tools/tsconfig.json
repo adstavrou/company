@@ -9,7 +9,12 @@
     "module": "ESNext",
     "target": "es2020",
     "baseUrl": ".",
-    "paths": {}
+    "paths": {},
+    "types": [
+      "node"
+    ],
   },
-  "include": ["src/**/*"]
+  "include": [
+    "src/**/*"
+  ]
 }

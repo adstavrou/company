@@ -13,6 +13,7 @@
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": ".",
+    "types": ["jest"],
     "paths": {
       "company-generators": ["tools/src/index.ts"]
     }
