@@ -9,6 +9,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.27.1",
     "@babel/preset-typescript": "^7.27.1",
+    "@jest/globals": "^29.7.0",
     "@nx/devkit": "^20.8.1",
     "@nx/jest": "20.8.1",
     "@nx/js": "20.8.1",

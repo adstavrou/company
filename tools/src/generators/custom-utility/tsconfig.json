@@ -2,6 +2,6 @@
     "extends": "../tsconfig.json",
     "include": [
         "**/*.ts",
-        "../../libs/src/**/*.ts"
+        "../../../libs/src/**/*.ts"
     ]
 }

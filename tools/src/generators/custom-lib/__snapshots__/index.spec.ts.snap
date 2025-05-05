@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-lib generator (snapshot) should generate basic lib files and match snapshot 1`] = `
+"export const hello = () => console.log('Hello from math-utils!');
+"
+`;
+
+exports[`custom-lib generator (snapshot) should generate basic lib files and match snapshot 2`] = `
+"// Constants for math-utils
+
+export const EXAMPLE_CONSTANT = 'value';
+"
+`;
+
+exports[`custom-lib generator (snapshot) should generate basic lib files and match snapshot 3`] = `
+"// Utility functions
+
+export function exampleUtil() {
+  return 'Hello from utils';
+}
+"
+`;
+
+exports[`custom-lib generator (snapshot) should generate basic lib files and match snapshot 4`] = `
+"{
+  "name": "math-utils",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/math-utils/src",
+  "projectType": "library",
+  "targets": {},
+  "tags": []
+}
+"
+`;

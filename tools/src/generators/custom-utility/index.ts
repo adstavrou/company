@@ -10,7 +10,7 @@ export default async function (tree: Tree, options: CustomUtilitySchema) {
         type: 'input',
         name: 'name',
         message: '🧪 Utility function name?',
-        validate: (v: string) => v.trim() !== '' || '👉 Please provide a name!',
+        validate: (value: string) => value.trim() !== '' || '👉 Please provide a name!',
       },
     ]);
     options.name = response.name;
@@ -22,7 +22,7 @@ export default async function (tree: Tree, options: CustomUtilitySchema) {
         type: 'input',
         name: 'dir',
         message: '📁 In which library? (e.g. shared, core-utils)',
-        validate: (v) => v.trim() !== '' || '👉 Please provide a target lib!',
+        validate: (value: string) => value.trim() !== '' || '👉 Please provide a target lib!',
       },
     ]);
     options.directory = response.dir;

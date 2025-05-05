@@ -18,6 +18,9 @@ importers:
       '@babel/preset-typescript':
         specifier: ^7.27.1
         version: 7.27.1(@babel/core@7.26.10)
+      '@jest/globals':
+        specifier: ^29.7.0
+        version: 29.7.0
       '@nx/devkit':
         specifier: ^20.8.1
         version: 20.8.1(nx@20.8.1(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.17))(@swc/types@0.1.21)(typescript@5.8.3))(@swc/core@1.5.29(@swc/helpers@0.5.17)))

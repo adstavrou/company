@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-service generator (snapshot) should generate service file and match snapshot 1`] = `
+"export class AuthManagerService {
+  constructor() {
+    console.log('AuthManagerService created!');
+  }
+}
+"
+`;

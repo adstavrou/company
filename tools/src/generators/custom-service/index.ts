@@ -1,5 +1,5 @@
 import { Tree, formatFiles } from '@nx/devkit';
-import { prompt } from 'enquirer';
+import { prompt } from 'company-generators/prompt';
 import { CustomServiceGeneratorSchema } from './schema';
 
 export default async function (tree: Tree, options: CustomServiceGeneratorSchema) {
@@ -9,7 +9,7 @@ export default async function (tree: Tree, options: CustomServiceGeneratorSchema
         type: 'input',
         name: 'serviceName',
         message: '🐸 What is the name of your service?',
-        validate: (value) => (value.trim() ? true : '👉 You must provide a service name!'),
+        validate: (value: string) => (value.trim() ? true : '👉 You must provide a service name!'),
       },
     ]);
     options.name = response.serviceName;
@@ -21,7 +21,7 @@ export default async function (tree: Tree, options: CustomServiceGeneratorSchema
         type: 'input',
         name: 'targetDir',
         message: '📦 Which library folder under libs/ ? (example: shared or core-utils)',
-        validate: (value) => (value.trim() ? true : '👉 You must provide a target directory!'),
+        validate: (value: string) => (value.trim() ? true : '👉 You must provide a service name!'),
       },
     ]);
     options.directory = response.targetDir;

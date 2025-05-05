@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-app generator (snapshot) should generate app files and match snapshot 1`] = `
+"// Entry point
+"
+`;
+
+exports[`custom-app generator (snapshot) should generate app files and match snapshot 2`] = `
+"{
+  "name": "test-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/test-app/app",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "echo Build",
+        "cwd": "apps/test-app"
+      }
+    }
+  },
+  "tags": []
+}
+"
+`;

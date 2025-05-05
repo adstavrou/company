@@ -1,6 +1,6 @@
 import { Tree, formatFiles } from '@nx/devkit';
 import { CustomLibGeneratorSchema } from './schema';
-import { prompt } from 'enquirer';
+import { prompt } from 'company-generators/prompt';
 
 export default async function (tree: Tree, options: CustomLibGeneratorSchema) {
   if (!options.name || options.name.trim() === '') {
@@ -9,7 +9,7 @@ export default async function (tree: Tree, options: CustomLibGeneratorSchema) {
         type: 'input',
         name: 'libName',
         message: '🐸 How should we name your library?',
-        validate: (value) => (value.trim() ? true : '👉 You must provide a name!'),
+        validate: (value: string) => (value.trim() ? true : '👉 You must provide a name!'),
       },
     ]);
     options.name = response.libName;
