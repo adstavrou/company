@@ -7,6 +7,8 @@
   "author": "Alexandros Stavrou",
   "license": "No Trespassing",
   "devDependencies": {
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
     "@nx/devkit": "^20.8.1",
     "@nx/jest": "20.8.1",
     "@nx/js": "20.8.1",
@@ -19,6 +21,7 @@
     "@types/node": "18.16.9",
     "@typescript-eslint/eslint-plugin": "^8.31.0",
     "@typescript-eslint/parser": "^8.31.0",
+    "babel-jest": "^29.7.0",
     "enquirer": "^2.4.1",
     "esbuild": "^0.25.3",
     "eslint": "^9.25.1",
@@ -40,6 +43,7 @@
     "build:app": "node --loader ts-node/esm scripts/build.mts",
     "start:app": "node dist/my-awesome-app/main.js",
     "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "test:tools": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
   }
 }

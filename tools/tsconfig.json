@@ -7,12 +7,22 @@
     "declaration": true,
     "declarationMap": true,
     "module": "ESNext",
-    "target": "es2020",
+    "target": "ES2020",
     "baseUrl": ".",
-    "paths": {},
+    "paths": {
+      "company-generators/prompt": [
+        "tools/libs/src/prompt.ts"
+      ],
+      "company-generators/naming": [
+        "tools/libs/src/naming.ts"
+      ],
+      "company-generators/fs": [
+        "tools/libs/src/fs.ts"
+      ]
+    },
     "types": [
       "node"
-    ],
+    ]
   },
   "include": [
     "src/**/*"

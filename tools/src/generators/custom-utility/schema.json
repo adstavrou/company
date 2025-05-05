@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Custom Utility Generator",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "The name of the utility function"
+        },
+        "directory": {
+            "type": "string",
+            "description": "The library folder (e.g. shared, core-utils)"
+        },
+        "withTest": {
+            "type": "boolean",
+            "description": "Generate test file"
+        }
+    },
+    "required": []
+}

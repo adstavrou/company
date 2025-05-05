@@ -1,5 +1,10 @@
 {
   "generators": {
+    "barrel": {
+      "factory": "./tools/src/generators/barrel",
+      "schema": "./tools/src/generators/barrel/schema.json",
+      "description": "Generate barrel index.ts file for a library"
+    },
     "custom-app": {
       "factory": "./src/generators/custom-app/index.ts",
       "schema": "./src/generators/custom-app/schema.json",

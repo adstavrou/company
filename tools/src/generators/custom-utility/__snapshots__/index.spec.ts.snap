@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`custom-utility generator should generate utility file and match snapshot 1`] = `
+"export function helloWorld() {
+  // TODO: Implement helloWorld
+}
+"
+`;
+
+exports[`custom-utility generator should generate utility file and match snapshot 2`] = `
+"import { helloWorld } from './hello-world.util';
+
+describe('helloWorld', () => {
+  it('should work', () => {
+    expect(helloWorld()).toBeDefined();
+  });
+});
+"
+`;

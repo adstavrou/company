@@ -1,10 +1,12 @@
 # 🏢 Company Monorepo
 
 Welcome! This is a **monorepo** project managed with [Nx](https://nx.dev/), using:
+
 - TypeScript
 - pnpm
 - esbuild
 - ESLint + Prettier (Flat Config)
+- Custom Nx generators (under `tools/src/generators`)
 
 ---
 
@@ -19,113 +21,170 @@ Install dependencies:
 pnpm install
 ```
 
+---
+
 ## 📦 Scripts
 
-Command | Description
-pnpm run lint | Run ESLint checks
-pnpm run lint:fix | Run ESLint and auto-fix problems
-pnpm run build | Build all apps/libs (soon)
-pnpm run serve | Serve an app manually (soon per app)
+| Command              | Description                        |
+|---------------------|------------------------------------|
+| `pnpm run lint`     | Run ESLint checks                  |
+| `pnpm run lint:fix` | Run ESLint and auto-fix problems   |
+| `pnpm run build`    | Build all apps/libs (coming soon)  |
+| `pnpm run serve`    | Serve an app manually (soon)       |
+| `pnpm test:tools`   | Run Jest tests for custom tools    |
 
-## Generators
+---
 
-### Available Generators
+## ⚙️ Custom Generators
 
-- **custom-app**  
-  - **Base command:** `pnpm exec nx g company-generators:custom-app`
-  - **Description:** Creates a new base application inside `apps/`, with initial structure and configuration.
+All generators live under `tools/src/generators/` and are invoked via the alias `company-generators`.
 
-- **It will:**
-  - Ask for the app name
-  - Ask for the app port
-  - Create the app under /apps/
-  - Setup .env, main.ts, README.md, and project.json
+To add a new one, follow the steps in `tools/src/generators/README.md`.
+
+---
+
+### 🧪 Available Generators
+
+#### `custom-app`
+- **Command:** `pnpm exec nx g company-generators:custom-app`
+- **Description:** Creates a new base application inside `apps/`
+- **Prompts for:**
+  - App name
+  - Port number
+- **Generates:** `.env`, `main.ts`, `README.md`, `project.json`
+
+#### `custom-lib`
+- **Command:** `pnpm exec nx g company-generators:custom-lib`
+- **Description:** Creates a new library inside `libs/`
+- **Supports:**
+  - Optional files: `utils.ts`, `constants.ts`, `types.ts`
+  - Optional Jest test setup
+  - Optional build target
+
+#### `custom-service`
+- **Command:** `pnpm exec nx g company-generators:custom-service`
+- **Description:** Adds a `*.service.ts` class file inside a library
+- **Prompts for:**
+  - Service name
+  - Target directory under `libs/`
+
+#### `custom-utility`
+- **Command:** `pnpm exec nx g company-generators:custom-utility`
+- **Description:** Adds a `*.util.ts` file to a lib, optionally with test
+
+#### `barrel`
+- **Command:** `pnpm exec nx g company-generators:barrel --project=my-lib`
+- **Description:** Generates or updates a `src/index.ts` with barrel exports
+
+---
 
 ## 📚 Project Structure
 
 ```plaintext
 company/
 ├── apps/
-│   └── my-awesome-app/
+│   └── my-app/
 │       ├── src/
-│       │   └── main.ts
 │       ├── .env
-│       ├── project.json
-│       └── README.md
+│       └── project.json
+├── libs/
+│   └── my-lib/
+│       ├── src/
+│       └── project.json
 ├── tools/
+│   ├── libs/              # internal helpers (prompt, naming, fs)
+│   │   └── src/
 │   └── src/
 │       └── generators/
-│           └── custom-app/
-│               ├── index.ts
-│               ├── schema.d.ts
-│               └── schema.json
-├── .vscode/
-│   ├── settings.json
-│   └── extensions.json
-├── node_modules/
-├── package.json
-├── pnpm-workspace.yaml
+│           ├── custom-app/
+│           ├── custom-lib/
+│           ├── custom-service/
+│           └── barrel/
 ├── tsconfig.base.json
 └── README.md
 ```
 
 ---
----
-# 🛠️ Company Monorepo Cheatsheet
 
-## 🚀 Custom Generators
+## 📖 Cheatsheet
 
-| Purpose    | Command Example |
-| -------- | ------- |
-| Create a new App | `pnpm exec nx g company-generators:custom-app --name=my-awesome-app` |
-| Create a new Lib	 | `pnpm exec nx g company-generators:custom-lib --name=my-utils-lib` |
-| Create a Service	    | `pnpm exec nx g company-generators:custom-service --name=my-service`	    |
+### 🚀 Generator Commands
 
----
-
-## 🛠️ Linting
-
-| Purpose    | Command Example |
-| -------- | ------- |
-| Lint all files | `pnpm run lint` |
-| Auto-fix lint issues		 | Save the file in VSCode (with ESLint & Format on Save enabled) |
+| Purpose             | Command Example                                                      |
+|---------------------|----------------------------------------------------------------------|
+| Create a new app    | `pnpm exec nx g company-generators:custom-app --name=my-app`         |
+| Create a new lib    | `pnpm exec nx g company-generators:custom-lib --name=core-utils`     |
+| Create a service    | `pnpm exec nx g company-generators:custom-service --name=auth`       |
+| Create a utility    | `pnpm exec nx g company-generators:custom-utility --name=slugify`    |
+| Barrel index.ts     | `pnpm exec nx g company-generators:barrel --project=core-utils`      |
 
 ---
 
-## 🧹 Cleaning
+### 🛠️ Linting
 
-| Purpose    | Command |
-| -------- | ------- |
-| Clean node_modules	 | `pnpm install --force` |
-| Clean Nx cache/temp	 | pnpm exec nx reset |
-
----
-
-# 📚 Notes
-- Always prefer running generators instead of copy-pasting folders manually.
-
-- Keep the workspace clean: run `pnpm run lint` and `pnpm exec nx format:write` before commits.
-
-- Prefer let for variables (unless you're 100% sure it ***MUST*** not change).
+| Purpose              | Command                          |
+|----------------------|----------------------------------|
+| Lint all files       | `pnpm run lint`                  |
+| Auto-fix issues      | `pnpm run lint:fix` or save in VSCode |
 
 ---
 
-# ⚡ Example Generator Run
+### 🧹 Cleaning
+
+| Purpose               | Command                         |
+|-----------------------|---------------------------------|
+| Clean node_modules    | `pnpm install --force`          |
+| Clean Nx cache        | `pnpm exec nx reset`            |
+
+---
+
+## 🔧 Generator Setup
+
+- Declare each generator in `tools/src/index.ts`
+- Add aliases in `tsconfig.base.json`:
+```json
+"paths": {
+  "company-generators": ["tools/src/index.ts"],
+  "company-generators/prompt": ["tools/libs/src/prompt.ts"]
+}
+```
+- Barrel your helpers in `tools/libs/src/index.ts`
+
+---
+
+## 💡 Notes
+- Prefer generators over copy-pasting folders manually
+- Run `pnpm exec nx format:write` and `pnpm run lint` before committing
+- Prefer `let` unless a variable **must** never change
+- Keep your libraries clean and encapsulated (no messy exports)
+
+---
+
+## 🐸 Final Tip
 ```bash
 pnpm exec nx g company-generators:custom-app --name=my-app
 ```
-**Creates:**
+Creates:
 ```
 apps/
 └── my-app/
-    ├── src/
-    │   └── main.ts
+    ├── src/main.ts
     ├── .env
-    ├── README.md
     └── project.json
 ```
 
-# 🐸 Have fun
+---
 
+# 🧪 Test your generators with confidence
+Run snapshot tests with:
+```bash
+pnpm test:tools
+```
+Update snapshots with:
+```bash
+pnpm test:tools -u
+```
 
-                                    
+---
+
+🚀 Keep automating. Stay DRY. Enjoy the ride.

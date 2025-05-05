@@ -15,7 +15,11 @@
     "baseUrl": ".",
     "types": ["jest"],
     "paths": {
-      "company-generators": ["tools/src/index.ts"]
+      "company-generators": ["tools/src/index.ts"],
+      "company-generators/fs": ["tools/libs/src/fs.ts"],
+      "company-generators/naming": ["tools/libs/src/naming.ts"],
+      "company-generators/prompt": ["tools/libs/src/prompt.ts"],
+      "company-generators/utils": ["tools/libs/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "dist"]
