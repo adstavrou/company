@@ -47,7 +47,7 @@ export default async function (tree: Tree, options: CustomLibGeneratorSchema) {
           { name: 'utils', message: 'utils.ts' },
           { name: 'constants', message: 'constants.ts' },
           { name: 'types', message: 'types.ts' },
-        ],
+        ] as { name: string; message: string }[],
       },
     ]);
     options.files = response.files as ('utils' | 'constants' | 'types')[];

@@ -6,18 +6,23 @@ import type { CustomAppGeneratorSchema } from './schema';
 const FIXED_APP_NAME = 'my-test-app';
 const FIXED_PORT = '5555';
 
-// Mock the enquirer module
-jest.unstable_mockModule('enquirer', () => ({
-  prompt: async () => ({ appName: FIXED_APP_NAME, port: FIXED_PORT }),
+// ✅ mock enquirer
+jest.unstable_mockModule('company-generators/prompt', () => ({
+  prompt: async () => ({
+    appName: FIXED_APP_NAME,
+    port: FIXED_PORT,
+    usePortAnyway: true,
+  }),
 }));
-
-const generator = (await import('./index')).default;
 
 describe('custom-app generator (snapshot)', () => {
   let tree: Tree;
+  let generator: (tree: Tree, options: CustomAppGeneratorSchema) => Promise<void>;
 
-  beforeEach(() => {
+  beforeEach(async () => {
     tree = createTreeWithEmptyWorkspace();
+    // ✅ dynamic import WITHIN async beforeEach
+    generator = (await import('./index')).default;
   });
 
   it('should generate app files and match snapshot', async () => {

@@ -19,6 +19,16 @@
       "factory": "./tools/src/generators/custom-service",
       "schema": "./tools/src/generators/custom-service/schema.json",
       "description": "Create a new service class inside a library"
+    },
+    "custom-utility": {
+      "factory": "./tools/src/generators/custom-utility",
+      "schema": "./tools/src/generators/custom-utility/schema.json",
+      "description": "Generates a utility function inside an existing library"
+    },
+    "add-demo-code": {
+      "factory": "./tools/src/generators/add-demo-code/index.ts",
+      "schema": "./tools/src/generators/add-demo-code/schema.json",
+      "description": "Add a new demo snippet to demo-code-snippets app"
     }
   }
 }

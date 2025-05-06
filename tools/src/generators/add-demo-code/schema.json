@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "title": "Add Demo Generator",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The folder name for the new demo (e.g. buttons-demo)"
+    },
+    "title": {
+      "type": "string",
+      "description": "The display title for the demo (e.g. Buttons Demo)"
+    }
+  }
+}

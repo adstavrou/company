@@ -1,0 +1,16 @@
+{
+  "name": "demo-code-snippets",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/demo-code-snippets/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "live-server ./apps/demo-code-snippets/src --open=index.html",
+        "cwd": "."
+      }
+    }
+  },
+  "tags": []
+}

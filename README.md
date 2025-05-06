@@ -23,7 +23,7 @@ pnpm install
 
 ---
 
-## 📦 Scripts
+## 📆 Scripts
 
 | Command              | Description                        |
 |---------------------|------------------------------------|
@@ -76,6 +76,17 @@ To add a new one, follow the steps in `tools/src/generators/README.md`.
 - **Command:** `pnpm exec nx g company-generators:barrel --project=my-lib`
 - **Description:** Generates or updates a `src/index.ts` with barrel exports
 
+#### `add-demo-code`
+- **Command:** `pnpm exec nx g company-generators:add-demo-code`
+- **Description:** Adds a new demo folder inside `apps/demo-code-snippets/src/`
+- **Prompts for:**
+  - Name of the demo
+- **Generates:**
+  - `index.html`
+  - `script.ts`
+  - `style.css`
+  - Updates the main `index.html` list
+
 ---
 
 ## 📚 Project Structure
@@ -83,8 +94,14 @@ To add a new one, follow the steps in `tools/src/generators/README.md`.
 ```plaintext
 company/
 ├── apps/
-│   └── my-app/
+│   ├── my-app/
+│   │   ├── src/
+│   │   ├── .env
+│   │   └── project.json
+│   └── demo-code-snippets/
 │       ├── src/
+│       │   ├── index.html
+│       │   └── [demo folders]
 │       ├── .env
 │       └── project.json
 ├── libs/
@@ -99,7 +116,9 @@ company/
 │           ├── custom-app/
 │           ├── custom-lib/
 │           ├── custom-service/
-│           └── barrel/
+│           ├── custom-utility/
+│           ├── barrel/
+│           └── add-demo-code/
 ├── tsconfig.base.json
 └── README.md
 ```
@@ -117,6 +136,7 @@ company/
 | Create a service    | `pnpm exec nx g company-generators:custom-service --name=auth`       |
 | Create a utility    | `pnpm exec nx g company-generators:custom-utility --name=slugify`    |
 | Barrel index.ts     | `pnpm exec nx g company-generators:barrel --project=core-utils`      |
+| Add demo code       | `pnpm exec nx g company-generators:add-demo-code`                   |
 
 ---
 
@@ -129,7 +149,7 @@ company/
 
 ---
 
-### 🧹 Cleaning
+### 🩹 Cleaning
 
 | Purpose               | Command                         |
 |-----------------------|---------------------------------|
