@@ -1,7 +1,11 @@
 # ✨ Add Demo Code Generator
 
-This generator adds a new **demo folder** under the `apps/demo-code-snippets/src/` directory.  
-Each demo is a standalone HTML/JS/CSS combo, and automatically gets linked from the main `index.html`.
+This generator adds a new **demo snippet** to the `apps/demo-code-snippets/` app.
+Each demo includes:
+
+* a **public-facing live example** (`demo.html`)
+* a **preview page** (`index.ts`) that displays code with PrismJS
+* a **list of code files** declared in `code-files.ts`
 
 ---
 
@@ -14,7 +18,8 @@ pnpm exec nx g company-generators:add-demo-code
 ```
 
 You’ll be prompted to:
-- Enter a name for the new demo
+
+* Enter a name for the new demo
 
 Or run with flags:
 
@@ -29,44 +34,68 @@ pnpm exec nx g company-generators:add-demo-code --name="hello world"
 ```plaintext
 apps/demo-code-snippets/
 └── src/
-    ├── index.html              # Central index with demo links
-    └── your-demo/
-        ├── index.html          # Basic HTML page
-        ├── script.ts           # Linked JS/TS logic
-        └── style.css           # Stylesheet
+    └── demos/
+        └── your-demo/
+            ├── index.ts         # Demo preview logic (PrismJS)
+            ├── index.html       # Entry point for preview
+            ├── demo.html        # Live example page
+            ├── demo.css         # Styling
+            ├── demo.ts          # Optional JS/TS logic
+            ├── demo.md          # Markdown description
+            └── code-files.ts    # Manifest of code files to display
 ```
 
 ---
 
 ## ⚙️ Features
 
-- Ensures **valid and sanitized demo name**
-- Creates demo folder with:
-  - `index.html`
-  - `script.ts`
-  - `style.css`
-- Automatically updates central `index.html`:
-  - Inserts new `<li><a href=...>` above the `<!-- DEMO-LIST -->` marker
+* Validates and sanitizes the demo name
+* Creates all necessary folders and files
+  * `index.ts`, `index.html`, `demo.md`, `demo.html`, `demo.css`, `demo.ts`
+  * `code-files.ts` for specifying visible code files
+* Automatically updates `src/main.ts`
+  * Appends a line like:
+
+```ts
+  demos['your-demo'] = './demos/your-demo/demo.html';
+```
+
+right above this marker:
+
+```ts
+// ⬇ DEMO-REGISTER
+```
 
 ---
 
 ## 🛡️ Validations
 
-- **Name is required**
-- Only lowercase letters, numbers, and dashes are allowed
-- Spaces and special characters are auto-converted to `-`
+* **Name is required**
+* Only lowercase letters, numbers, and dashes are allowed
+* Spaces and special characters are auto-converted to `-`
 
 ---
 
-## 💡 Tip
+## 💡 Tips
 
-Make sure `apps/demo-code-snippets/src/index.html` contains this marker:
-```html
-<!-- DEMO-LIST -->
+Make sure `apps/demo-code-snippets/src/main.ts` contains the marker:
+
+```ts
+// ⬇ DEMO-REGISTER
 ```
-This is where new demos will be inserted.
+
+This is where the generator appends demo routes.
+
+To control which files are visible in the code preview:
+
+```ts
+// code-files.ts
+export default ['demo.html', 'demo.css', 'demo.ts'];
+```
+
+You can include or omit files freely.
 
 ---
 
-> Generator: `company-generators:add-demo-code`  
-> Ideal for showcasing isolated HTML/TS/CSS examples in your monorepo
+> Generator: `company-generators:add-demo-code`
+> Ideal for building isolated, interactive, and previewable code demos in your monorepo.

@@ -1,15 +1,6 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "strict": true,
-    "esModuleInterop": true,
-    "types": [
-      "jest"
-    ]
-  },
+  "extends": "../../tsconfig.base.json",
   "include": [
-    "src/**/*"
+    "src"
   ]
 }

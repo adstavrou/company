@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700;1,900&amp;display=swap');
+@import url('https://res.cloudinary.com/dr6lvwubh/raw/upload/v1581441981/Anicons/anicons-regular.css');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.form-submit-button {
+  margin: 0.5em;
+  border: none;
+  border-radius: 2em;
+  padding: 0.5em 4em;
+  font-size: 1em;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 2;
+  text-transform: uppercase;
+  background-image: linear-gradient(90deg, #e20069 0%, #FFAA17 20%, #e20069 40%, #FFAA17 60%, #555555 80%, #999999 100%);
+  background-size: 500% 100%;
+  background-position: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 1px #111111;
+  text-shadow: 1px 1px #111111;
+  transition: background-position 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.form-submit-button:hover {
+  background-position: 33%;
+}
+
+.form-submit-button:active {
+  background-position: 0%;
+}
+
+.form:invalid .form-submit-button {
+  opacity: 0.4;
+  pointer-events: none;
+  background-position: 100%;
+}
+
+.icon::before {
+  content: "q";
+  display: block;
+  position: absolute;
+  left: -1.6em;
+  top: 0.8em;
+  border: solid 2px #FFAA17;
+  border-radius: 2em;
+  padding: 0.2em;
+  font-family: "Anicons Regular", sans-serif;
+  font-variation-settings: "TIME" 100;
+  font-size: 1.5em;
+  color: #FFAA17;
+  background: #ffffff;
+  transition: font-variation-settings 0.4s ease;
+}
+
+.icon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  left: -1.3em;
+  top: 3.4em;
+  width: 2px;
+  height: 4em;
+  background-image: linear-gradient(0deg, #555555 0%, #555555 33%, #e20069 66%, #FFAA17 100%);
+  background-size: 100% 300%;
+  background-position: 0% 100%;
+  opacity: 0.4;
+  transition: background-position 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+.form-input__set {
+  position: relative;
+  margin: 2em auto;
+  border: none;
+  padding: 0;
+  width: 380px;
+  text-align: left;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.form-input__set:last-of-type .icon::after {
+  content: none;
+}
+
+.form-input__set:invalid+fieldset {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.form-input__set:invalid+fieldset .icon::before {
+  border-color: #555555;
+  color: #555555;
+}
+
+.form-input__label {
+  display: block;
+  position: absolute;
+  top: 1.52em;
+  left: 1.2em;
+  color: #555555;
+  transition: top 0.4s ease-in-out;
+}
+
+.form-input__decoration-line {
+  position: absolute;
+  left: 0.6em;
+  top: 3.6em;
+  width: 380px;
+  height: 2px;
+  background-image: linear-gradient(90deg, #555555 0%, #555555 33%, #e20069 66%, #FFAA17 100%);
+  background-size: 300% 100%;
+  background-position: 0%;
+  transition: background-position 0.4s ease-in-out;
+}
+
+.form-input__text {
+  margin: 0.5em;
+  border: none;
+  border-radius: 0;
+  padding: 0.4em;
+  width: 310px;
+  font-size: 1.4em;
+  color: #343434;
+}
+
+.form-input__text:focus-visible {
+  outline: none;
+}
+
+.form-input__text::placeholder {
+  font-size: 0.7em;
+  color: #ffffff;
+  transition: color 0.4s ease-in-out;
+}
+
+.form-input__text:not(:placeholder-shown)+label,
+.form-input__text:focus-visible+label {
+  top: -0.7em;
+}
+
+.form-input__text:focus-visible::placeholder {
+  color: #999999;
+}
+
+.form-input__text:not(:placeholder-shown)~.form-input__decoration-line,
+.form-input__text:focus-visible~.form-input__decoration-line {
+  background-position: 100%;
+}
+
+.form-input__text:invalid:focus-visible+label::after {
+  content: " (" attr(data-help-text) ") ";
+  color: #999999;
+}
+
+.form-input__text:invalid:focus-visible~.form-input__icon::before {
+  font-variation-settings: "TIME" 1;
+}
+
+.form-input__text:not(:placeholder-shown)~.form-input__icon::before {
+  content: "m";
+  font-variation-settings: "TIME" 1;
+  color: green;
+}
+
+.form-input__text:not(:placeholder-shown):not(:valid)~.form-input__icon::before {
+  color: red;
+}
+
+.form-input__text:not(:placeholder-shown):not(:focus-visible):not(:invalid)~.form-input__icon::before {
+  content: "m";
+  font-variation-settings: "TIME" 100;
+  color: green;
+}

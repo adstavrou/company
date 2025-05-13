@@ -2,8 +2,8 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "Node",
     "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
     "declaration": true,
     "sourceMap": true,
     "composite": true,
@@ -13,14 +13,15 @@
     "strict": true,
     "skipLibCheck": true,
     "baseUrl": ".",
-    "types": ["jest"],
     "paths": {
       "company-generators": ["tools/src/index.ts"],
+      "company-generators/*": ["tools/src/*"],
       "company-generators/fs": ["tools/libs/src/fs.ts"],
       "company-generators/naming": ["tools/libs/src/naming.ts"],
       "company-generators/prompt": ["tools/libs/src/prompt.ts"],
       "company-generators/utils": ["tools/libs/src/index.ts"]
-    }
+    },
+    "types": ["jest"]
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist", "scripts"]
 }

@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  padding: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+pre,
+code {
+  display: block;
+}

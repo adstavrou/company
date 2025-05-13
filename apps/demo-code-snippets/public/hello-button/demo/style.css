@@ -1,0 +1,11 @@
+#hello-btn {
+  background: dodgerblue;
+  color: white;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+#hello-btn:hover {
+  background: deepskyblue;
+}

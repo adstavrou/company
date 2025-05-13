@@ -1,5 +1,15 @@
 {
-    "extends": "./tsconfig.base.json",
-    "files": [],
-    "references": []
-  }
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    {
+      "path": "apps/demo-code-snippets"
+    },
+    {
+      "path": "libs/core"
+    },
+    {
+      "path": "tools"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+This demo showcases a dynamic multi-step input form with progressive field activation and visual feedback.
+
+Each input field is styled with animated labels, icon indicators, and a decorative gradient line...

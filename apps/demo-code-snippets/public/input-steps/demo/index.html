@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>input-steps</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form class="form">
+      <fieldset class="form-input__set">
+        <input id="name" type="text" class="form-input__text" placeholder="Please enter a valid name" minlength="3" required>
+        <label for="name" class="form-input__label" data-help-text="please enter min 3 chars">Your name</label>
+        <span class="form-input__decoration-line"></span>
+        <span class="icon form-input__icon"></span>
+      </fieldset>
+      <fieldset class="form-input__set">
+        <input id="email" type="email" class="form-input__text" placeholder="Please enter a valid email" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+        <label for="email" class="form-input__label" data-help-text="example: name@mail.com">Your email</label>
+        <span class="form-input__decoration-line"></span>
+        <span class="icon form-input__icon"></span>
+      </fieldset>
+      <fieldset class="form-input__set">
+        <input id="password" type="password" class="form-input__text" placeholder="Please enter a valid password" minlength="8" pattern="(?=.*\d)(?=.*[a-zA-Z]).*" required>
+        <label for="password" class="form-input__label" data-help-text="1 letter + 1 numberr. - min 8 char">Your password</label>
+        <span class="form-input__decoration-line"></span>
+        <span class="icon form-input__icon"></span>
+      </fieldset>
+      <button class="form-submit-button" type="submit">Submit your details</button>
+    </form>
+  
+  </body>
+</html>

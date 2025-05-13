@@ -39,9 +39,12 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "marked": "^15.0.11"
   },
   "scripts": {
+    "demo:dev": "pnpm exec nx serve demo-code-snippets",
+    "demo:build": "pnpm exec nx build demo-code-snippets",
     "build:app": "node --loader ts-node/esm scripts/build.mts",
     "start:app": "node dist/my-awesome-app/main.js",
     "lint": "eslint . --ext .ts,.tsx",

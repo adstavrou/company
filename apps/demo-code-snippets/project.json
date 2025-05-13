@@ -1,16 +1,24 @@
 {
   "name": "demo-code-snippets",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/demo-code-snippets/src",
-  "projectType": "application",
   "targets": {
     "serve": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "live-server ./apps/demo-code-snippets/src --open=index.html",
-        "cwd": "."
+        "command": "pnpm --filter demo-code-snippets dev"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node scripts/build.mjs"
+      }
+    },
+    "preview": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "vite preview",
+        "cwd": "apps/demo-code-snippets"
       }
     }
-  },
-  "tags": []
+  }
 }

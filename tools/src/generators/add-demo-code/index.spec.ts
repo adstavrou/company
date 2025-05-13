@@ -2,42 +2,45 @@ import { createTreeWithEmptyWorkspace } from '@nx/devkit/testing';
 import { Tree } from '@nx/devkit';
 import generator from './index';
 
-describe('add-demo base generator', () => {
+describe('add-demo-code generator', () => {
   let tree: Tree;
 
   beforeEach(() => {
     tree = createTreeWithEmptyWorkspace();
 
-    // Add basic index.html to simulate demo-code-snippets root
     tree.write(
-      'apps/demo-code-snippets/src/index.html',
-      `<!DOCTYPE html>
-<html>
-  <body>
-    <ul>
-      <!-- DEMO-LIST -->
-    </ul>
-  </body>
-</html>`,
+      'apps/demo-code-snippets/src/main.ts',
+      `const demos: Record<string, string> = {};
+
+// ⬇ DEMO-REGISTER`,
     );
   });
 
-  it('should create basic demo-code-snippets app structure', async () => {
+  it('should create full demo folder structure', async () => {
     await generator(tree, { name: 'your-demo' });
 
-    expect(tree.exists('apps/demo-code-snippets/src/your-demo/index.html')).toBe(true);
-    expect(tree.exists('apps/demo-code-snippets/src/your-demo/script.ts')).toBe(true);
-    expect(tree.exists('apps/demo-code-snippets/src/your-demo/style.css')).toBe(true);
+    const base = 'apps/demo-code-snippets/src/demos/your-demo';
 
-    let indexHtml = tree.read('apps/demo-code-snippets/src/index.html', 'utf-8');
-    expect(indexHtml).toContain('<li><a href="./your-demo/index.html">your-demo</a></li>');
-    expect(indexHtml).toContain('<!-- DEMO-LIST -->');
+    expect(tree.exists(`${base}/index.ts`)).toBe(true);
+    expect(tree.exists(`${base}/demo.md`)).toBe(true);
+    expect(tree.exists(`${base}/demo.html`)).toBe(true);
+    expect(tree.exists(`${base}/demo.css`)).toBe(true);
+    expect(tree.exists(`${base}/demo.ts`)).toBe(true);
+    expect(tree.exists(`${base}/code-files.ts`)).toBe(true);
+    expect(tree.exists(`${base}/index.html`)).toBe(true);
+
+    const manifest = tree.read(`${base}/code-files.ts`, 'utf-8')!;
+    expect(manifest).toContain('demo.html');
+    expect(manifest).toContain('demo.css');
+    expect(manifest).toContain('demo.ts');
+
+    const mainTs = tree.read('apps/demo-code-snippets/src/main.ts', 'utf-8')!;
+    expect(mainTs).toContain("demos['your-demo'] = './demos/your-demo/demo.html';");
   });
 
-  it('should generate expected index.html structure (snapshot)', async () => {
-    await generator(tree, { name: 'snapshot-demo' });
-
-    let result = tree.read('apps/demo-code-snippets/src/index.html', 'utf-8');
-    expect(result).toMatchSnapshot();
+  it('should not overwrite existing main.ts if already exists', async () => {
+    await generator(tree, { name: 'another-demo' });
+    const mainTs = tree.read('apps/demo-code-snippets/src/main.ts', 'utf-8')!;
+    expect(mainTs).toContain("demos['another-demo'] = './demos/another-demo/demo.html';");
   });
 });
