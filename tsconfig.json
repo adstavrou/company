@@ -6,9 +6,6 @@
       "path": "apps/demo-code-snippets"
     },
     {
-      "path": "libs/core"
-    },
-    {
       "path": "tools"
     }
   ]
