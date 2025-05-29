@@ -12,8 +12,6 @@ function escapeHtml(code: string): string {
   return code.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-//demo change
-
 export class DemoViewer extends HTMLElement {
   constructor() {
     super();
