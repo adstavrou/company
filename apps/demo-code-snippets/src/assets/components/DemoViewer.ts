@@ -11,7 +11,6 @@ import templateHtml from '../templates/DemoViewer.html?raw';
 function escapeHtml(code: string): string {
   return code.replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
-//demo again
 
 export class DemoViewer extends HTMLElement {
   constructor() {
